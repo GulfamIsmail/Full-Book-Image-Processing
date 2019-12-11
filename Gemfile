@@ -7,11 +7,19 @@ ruby '2.6.3'
 gem 'rails'
 gem 'bcrypt','3.1.7'
 gem 'faker'
+
+gem  'carrierwave','0.10.0'
+gem  'mini_magick', '3.8.0'
+gem 'net-ssh'
+gem 'xmlrpc'
+
+gem   'fog',     '1.23.0'
+
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3', '~> 1.4'
+gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 
 # Use SCSS for stylesheets
